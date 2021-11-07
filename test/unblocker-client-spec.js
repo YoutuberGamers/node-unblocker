@@ -24,7 +24,8 @@ const testCases = [
   {
     url: "baz",
     location: new URL(proxy + prefix + "http://example.com/bam/biz"),
-    expected: "/proxy/http://example.com/bam/baz",
+    expected: "/proxy/http://example.com/bam/baz
+    
   },
   {
     url: "../parent",
